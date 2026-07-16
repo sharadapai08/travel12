@@ -1,0 +1,115 @@
+/* Review Section Container */
+.review-section {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Heading */
+.review-section h2 {
+    color: #007bff;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Review Form */
+.review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.review-form label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+    width: 100%;
+    max-width: 450px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.review-form textarea {
+    height: 140px;
+    resize: vertical;
+    /*max-length: 500;*/
+}
+
+/* Submit Button */
+.review-form button {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.review-form button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Review List */
+.review-list {
+    margin-top: 25px;
+    text-align: left;
+}
+
+/* Review Cards */
+.review-card {
+    background: #f9f9f9;
+    padding: 18px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 85%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+/* Reviewer Name */
+.review-card strong {
+    color: #007bff;
+    font-size: 20px;
+}
+
+/* Review Text */
+.review-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+/* Rating Styling */
+.review-card .rating {
+    color: #f39c12;
+    font-size: 22px;
+}
+
+/* Date Styling */
+.review-card small {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: #777;
+    font-size: 14px;
+}
